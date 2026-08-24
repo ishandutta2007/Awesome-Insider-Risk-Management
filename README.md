@@ -28,7 +28,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
 
@@ -40,63 +40,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Microsoft Purview Insider Risk Management](https://www.microsoft.com/en-us/security/business/microsoft-purview)**  
-
-  Native Microsoft 365 / Azure insider risk solution that correlates signals across email, files, Teams, and endpoints to identify risky user behavior within the Microsoft ecosystem.
-
-
-
-- **[Code42 Incydr](https://www.code42.com/)**  
-
-  Data-exfiltration focused platform that tracks file movement across endpoints, cloud, and email vectors and scores risk without heavy upfront policy configuration.
-
-
-
-- **[Proofpoint Insider Threat Management](https://www.proofpoint.com/)**  
-
-  Insider threat solution (including former ObserveIT capabilities) combining session recording, behavioral risk scoring, and integration with email and DLP controls.
-
-
-
-- **[DTEX Systems (InTERCEPT)](https://www.dtexsystems.com/)**  
-
-  Enterprise insider risk platform emphasizing metadata-based behavioral analytics and privacy-preserving risk scoring across large user populations.
-
-
-
-- **[Teramind](https://www.teramind.co/)**  
-
-  Employee monitoring and insider threat platform with session recording, activity tracking, and policy enforcement capabilities.
-
-
-
-- **[Varonis](https://www.varonis.com/)**  
-
-  Data-centric security platform strong in access governance, permissions analysis, and behavioral detection of anomalous data access that can indicate insider risk.
-
-
-
-- **[ObserveIT (Proofpoint)](https://www.proofpoint.com/)**  
-
-  Session-recording and user-activity monitoring technology now part of Proofpoint’s insider threat portfolio.
-
-
-
-- **[Cyberhaven](https://www.cyberhaven.com/)**  
-
-  Data-detection and response platform focused on tracking sensitive data movement and preventing insider-driven exfiltration.
-
-
-
-- **[Forcepoint Insider Threat](https://www.forcepoint.com/)**  
-
-  Insider threat capabilities integrated with Forcepoint’s DLP and human-centric security portfolio.
-
-
-
-- **[Securonix](https://www.securonix.com/)**  
-
-  SIEM and UEBA platform with strong behavioral analytics used for insider threat detection and broader security operations.
+| Platform | Description | Starting Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Microsoft Purview Insider Risk Management](https://www.microsoft.com/en-us/security/business/microsoft-purview)** | Native Microsoft 365 / Azure insider risk solution that correlates signals across email, files, Teams, and endpoints to identify risky user behavior within the Microsoft ecosystem. | Starting at **$12.00/user/month** (Purview Suite add-on for M365 E3) or included in Microsoft 365 E5 ($57.00/user/month); compute billing at ~$25 per 10,000 logs (1 DSPU). | **90-day free trial** available via Microsoft Purview Portal (up to 25 user licenses / 300 evaluations; no free-forever plan). |
+| **[Code42 Incydr](https://www.code42.com/)** | Data-exfiltration focused platform that tracks file movement across endpoints, cloud, and email vectors and scores risk without heavy upfront policy configuration. | Starting at **$30.00–$45.00/user/year** (~$2.50–$3.75/user/month) for core endpoint monitoring with minimum annual contract commitments. | **30-day Proof of Value (POV)** guided trial (evaluates file movement and data exposure across test machines; no free-forever plan). |
+| **[Proofpoint Insider Threat Management](https://www.proofpoint.com/)** | Insider threat solution (including former ObserveIT capabilities) combining session recording, behavioral risk scoring, and integration with email and DLP controls. | Starting at **£13.40 to £62.00 (~$17.00–$80.00)/user/year** (~$1.40–$6.70/user/month) on public framework schedules based on endpoint volume. | **30-day Proof of Concept (PoC)** / complimentary threat assessment trial (full session capture on select test endpoints; no free-forever plan). |
+| **[DTEX Systems (InTERCEPT)](https://www.dtexsystems.com/)** | Enterprise insider risk platform emphasizing metadata-based behavioral analytics and privacy-preserving risk scoring across large user populations. | Starting at **$35.00–$60.00/endpoint/year** (~$3.00–$5.00/user/month) with entry enterprise tiers starting at $25,000/year annual minimum. | **30-day Proof of Value (POV)** trial (monitors 100–500 test endpoints for metadata-only behavioral baseline; no free-forever plan). |
+| **[Teramind](https://www.teramind.co/)** | Employee monitoring and insider threat platform with session recording, activity tracking, and policy enforcement capabilities. | Starting at **$11.25/user/month** (Starter tier billed annually, 5-user minimum = $56.25/mo) or $15.00/user/month monthly; UAM tier starts at $22.50/user/month. | **7-day free trial** for Cloud deployments (or **14-day free trial** for On-Premise) for up to 5 users/endpoints with full features; no free-forever plan. |
+| **[Varonis](https://www.varonis.com/)** | Data-centric security platform strong in access governance, permissions analysis, and behavioral detection of anomalous data access that can indicate insider risk. | Starting at **$50.00–$95.00/user/year** (~$4.15–$7.90/user/month) for core SaaS Data Security Platform (DSP) modules. | **30-day free trial** / complimentary Data Risk Assessment (DRA) covering automated discovery across enterprise repositories; no free-forever plan. |
+| **[ObserveIT (Proofpoint)](https://www.proofpoint.com/)** | Session-recording and user-activity monitoring technology now part of Proofpoint’s insider threat portfolio. | Starting at **£62.00 (~$80.00)/desktop or server endpoint/year** (~$6.70/endpoint/month via G-Cloud framework). | **30-day Proof of Concept (PoC)** trial (supports session recording & keystroke logging for up to 20 test workstations/servers; no free-forever plan). |
+| **[Cyberhaven](https://www.cyberhaven.com/)** | Data-detection and response platform focused on tracking sensitive data movement and preventing insider-driven exfiltration. | Starting at **$35.00–$48.00/user/year** (~$3.00–$4.00/user/month) with entry enterprise annual commitments starting around $30,000/year. | **14 to 30-day Proof of Value (POV)** structured trial (limited to data lineage tracking across designated test endpoints/cloud apps; no free-forever plan). |
+| **[Forcepoint Insider Threat](https://www.forcepoint.com/)** | Insider threat capabilities integrated with Forcepoint’s DLP and human-centric security portfolio. | Starting at **£119.00–£129.20 (~$150.00–$165.00)/endpoint/year** (~$12.50–$13.75/endpoint/month) on public framework schedules. | **30-day guided evaluation trial** (limited to test endpoints with video playback and policy alert capture; no free-forever plan). |
+| **[Securonix](https://www.securonix.com/)** | SIEM and UEBA platform with strong behavioral analytics used for insider threat detection and broader security operations. | Starting at **$15.00–$25.00/GB/day** data ingestion (~$3.00–$5.00/user/month equivalent) with entry enterprise tiers starting at $15,000/year. | **30-day guided Proof of Concept (PoC)** trial (limited to 10–25 GB/day log ingestion for UEBA baseline anomaly modeling; no free-forever plan). |
 
 
 
